@@ -10,9 +10,17 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 
+st.set_page_config(page_title='Projectp286',layout='wide')
+st.title('This is the Book recommendation project of team 4 	:books:')
+#st.markdown('''---''')
+st.header(' Book Recommendation Project286:')
 
-st.header('Book Recommender System')
-st.title("Book Recommendation Project286")
+st.markdown('''* A book recommendation system is a type of recommendation system where we have to recommend similar books to the reader based on his interest.
+            
+* Book recommendation helps a business to Gain Revenue, Increased Customer Satisfaction, Personalisation to user. 
+---
+''')
+
 model = pickle.load(open('model.pkl','rb'))
 book_names = pickle.load(open('book_names.pkl','rb'))
 final_rating = pickle.load(open('final_rating_https.pkl','rb'))
