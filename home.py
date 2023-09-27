@@ -63,7 +63,7 @@ def recommend_book(book_name):  ## creating a function to search a book and to s
 
 
 selected_books = st.selectbox(
-    "Type or select a book from the dropdown",
+    "Type book name or select ",
     book_names
 )
 
