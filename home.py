@@ -8,6 +8,7 @@ Created on Sun Sep 24 18:14:51 2023
 import pickle
 import streamlit as st
 import numpy as np
+import pandas as pd
 
 
 st.header('Book Recommender System')
